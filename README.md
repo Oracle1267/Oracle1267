@@ -1,75 +1,66 @@
-Hi, I'm Nick Glanzer
+# Nick Glanzer
 
-I’m a space intelligence instructor, operational planner, and systems builder with 25 years of military-intelligence experience and a B.S. in Physics.
+### Space Intelligence Instructor · Operational Planner · Systems Builder
 
-I build decision-support systems that turn complex requirements, constrained resources, and uncertain information into defensible plans. My work sits at the intersection of operational analysis, workforce and capacity modeling, intelligence workflows, human-supervised automation, and applied software development.
+I am a space-intelligence instructor and operational planner with 25 years of military-intelligence experience. I build decision-support systems that turn complex requirements, constrained resources, and incomplete evidence into defensible plans.
 
-What I build
+My work sits at the intersection of intelligence analysis, training operations, quantitative modeling, and human-supervised automation. I am especially interested in systems where the difficult part is not generating an answer, but preserving provenance, exposing assumptions, managing uncertainty, and keeping consequential decisions under accountable human control.
 
-Operational decision systems — tools that make capacity, constraints, failure points, and tradeoffs visible before they become crises
+## Featured Public Work
 
-Intelligence and research workflows — structured collection, evaluation, provenance, and analytical systems for working with uncertain information
+### [ATHENA](https://github.com/Oracle1267/ATHENA)
 
-Human-supervised automation — systems that use automation and AI while preserving explicit authority boundaries, auditability, and human judgment
+A tested public-source intelligence collection and evaluation system that transforms public evidence into standardized intelligence packets, requirement-linked analysis, timelines, dossiers, operator products, and reviewable dissemination workflows.
 
-Purpose-built operational software — applications designed around real workflows rather than generic feature lists
+ATHENA separates source code from runtime intelligence data, includes automated publication-safety checks, and is designed around traceability from source material to operator judgment.
 
-Featured public work
+### [Inverse Galois Search for M23](https://github.com/Oracle1267/inverse-galois-m23)
 
-Inverse Galois Search for M23
+A reproducible computational research workflow pursuing an explicit degree-23 polynomial with Galois group \(M_{23}\). The project preserves candidates, failures, uncertainty, and verification state while escalating promising results through increasingly rigorous mathematical checks.
 
-A reproducible computational research workflow for searching for a degree-23 polynomial over Z[x] whose Galois group is M23. The project combines resumable search, candidate ledgering, finite-field exploration, layered verification, timeout quarantine, and external algebra-system escalation. It documents both the surviving paths and the unsuccessful ones; no certified realization is claimed.
+The repository documents the search honestly: it does not claim a certified realization where one has not been found.
 
-Career-Ops
+### [Career-Ops](https://github.com/Oracle1267/Career-Ops)
 
-A personalized role-discovery and triage system that scans selected company boards, deduplicates openings, evaluates strategic fit and practical hireability, and produces a human-review dashboard. It is designed as a decision filter—not an automated application engine.
+A human-supervised opportunity-discovery and triage system that scans selected company career boards, deduplicates roles, evaluates strategic fit and realistic hireability, and produces a review dashboard without automating applications.
 
-Selected systems
+### [ParleyMind](https://github.com/Oracle1267/ParleyMind)
 
-Much of my work involves proprietary, sensitive, personally configured, or still-developing systems, so not every source repository is public. Selected projects include:
+An experimental OSINT-style sports-market research system built to distinguish “this team will win” from “this price is wrong.” It combines public information, structured analysis, provenance, and validation against market movement to investigate whether an apparent signal represents measurable pricing edge.
 
-Fabrica Tempus — a constraint-aware scheduling and capacity-analysis system for complex training operations. It models instructors, qualifications, rooms, equipment, shifts, course requirements, and projected demand to identify the first failing constraint and the highest feasible throughput.
+## Selected Private Systems
 
-Covenant — a governed, human-supervised agent control plane built around explicit authority limits, reversible preparation, approval boundaries, and auditable workflows.
+Some of my strongest work remains private because it contains proprietary implementation details, operational context, or capabilities that are not appropriate for unrestricted publication.
 
-ATHENA — an OSINT collection and analysis system being refined into a standalone activity-based and object-based production environment.
+- **Fabrica Tempus** — a constraint-based training-capacity and scheduling system for modeling instructors, rooms, qualifications, equipment, concurrent cohorts, and projected demand. It generates long-range schedules and identifies the first resource constraint that makes a plan infeasible.
+- **Covenant** — a governed, human-supervised agent system with explicit authority boundaries, auditable actions, constrained approvals, and no uncontrolled external execution.
+- **Recruitment Intake Console** — a deployed operational application for managing recruiting prospects, intake, follow-up, and organizational visibility.
 
-Recruitment Intake Console — an operational recruitment workflow application developed, reduced in scope, and deployed around real cost and usability constraints.
+## How I Build
 
-Public case studies and sanitized demonstrations will be added where they can accurately represent the work without exposing protected data, sensitive implementation details, or third-party intellectual property.
+I use AI-assisted development extensively. My contribution is not best described as manually writing every line of code. It is defining the problem, translating operational reality into requirements and constraints, directing architecture, challenging generated implementations, designing verification, testing failure modes, and remaining accountable for the result.
 
-How I work with AI
+I do not treat generated code as evidence that a system works. I look for reproducible behavior, explicit assumptions, tests, audit trails, honest limitations, and outputs that survive comparison with the real-world problem.
 
-I use AI-assisted development extensively as an implementation and research partner. My contribution centers on defining the problem, translating real operations into requirements and constraints, designing the system and verification approach, reviewing outputs, testing behavior, correcting failures, and remaining accountable for the result.
+## What I Work On
 
-I do not treat generated code as evidence that a system works. I treat reproducible behavior, documented assumptions, tests, audit trails, and honest limitations as evidence.
+- Intelligence collection, evaluation, and dissemination workflows
+- Capacity modeling, scheduling, and constrained-resource planning
+- Human-supervised agents and authority boundaries
+- OSINT, provenance, evidence handling, and analytical traceability
+- Decision support under incomplete information
+- Computational research and persistent search systems
+- Stabilizing prototypes into testable operational tools
 
-Background
+## Professional Background
 
-25 years in military intelligence
+- 25 years in military intelligence
+- Space-based ISR and intelligence instruction
+- Operational planning, exercise development, and academic counseling
+- Lead scheduling and training-capacity analysis
+- Approximately 10,000 hours of classroom instruction and public speaking
+- B.S. in Physics
 
-Space intelligence instructor and lead scheduler
+## Working Principle
 
-Former U.S. Air Force Arabic linguist
-
-B.S. in Physics
-
-Approximately 10,000 hours of classroom instruction and public speaking
-
-Focus areas: space and military intelligence, training operations, capacity modeling, systems analysis, requirements development, and AI-assisted software delivery
-
-Current interests
-
-I’m especially interested in operational problems where the organization has plenty of data but still cannot clearly answer:
-
-What is the real limiting constraint?
-
-Where and when will the current plan fail?
-
-What additional resources are actually required?
-
-Which assumptions are driving the answer?
-
-What can safely be automated, and what must remain a human decision?
-
-If that describes a problem you are working on, feel free to connect with me through GitHub.
+> A useful system does more than produce an answer. It shows where the answer came from, which assumptions support it, where it can fail, and which decisions still belong to a human.
